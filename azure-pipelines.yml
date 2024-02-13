@@ -22,8 +22,6 @@ steps:
 - task: XamarinAndroid@1
   inputs:
     projectFile: '**/*.csproj'
-    msbuildVersionOption: '12.0'
-    msbuildArchitectureOption: 'x64'
     jdkOption: 'JDKVersion'
     jdkVersionOption: '1.11'
     outputDirectory: '$(outputDirectory)'
